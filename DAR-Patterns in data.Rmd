@@ -50,6 +50,11 @@ Our Research Question is:
 # Inferential Results
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+The hypothesis is cannot be rejected because the P-value is indicating 1.73 which is above the p-value of 0.05 percent; so therefore, the hypothesis cannot not be rejected because it does show a relationship between weight and position. 
+
+```{r}
+t.test(weight~position,data=pushups)
+```
 
 # Discussion and Conclusion
 <!--State your overall conclusion.  This is also a good place to mention other Research Questions that came to mind as you were carrying out this study.!-->
