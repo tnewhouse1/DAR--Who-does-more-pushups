@@ -34,17 +34,28 @@ Our Research Question is:
 # Methods
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+There are two important variables which are pushups and weight and we will use a boxplot, favstats and t.test as well as a voilin plot.
 
 # Results
 <!--You have both graphical and numerical methods, so you will have both graphical and numerical results to consider.!-->
 
+Based on the numberical anaylsis of the data, it indicates that 47.5% of Skill players do more pushups versus 14.5% of line players. Howerver, in terms of the graphical analysis,skill players show that they weight approximately 255 pounds versus line players who weight less at approximately 220 pounds, which is about 35 pounds heavier. Does weight have any factor on the reason skill players do more pushups than line player?.
 
 ## Graphical Results
 <!--Your graph should have a good title, and axes should be labled as needed.  Discuss your graphical results, showing how they answer the research question.  Use specific features of the graph in your discussion.!-->
 
+```{r}
+myex <- ggplot(pushups, aes(x=position, y=weight))
+myex +geom_boxplot()
+myex +geom_violin()
+```
 
 ## Numerical Results
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(pushups~position,data=pushups)
+```
 
 
 # Inferential Results
