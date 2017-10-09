@@ -30,9 +30,7 @@ Our Research Question is:
 
   >Who does more pushups, on average: a line player or a skill player?
 
-* **There are three variables: weight, pushups and position.
-* **The explanatory variable is weight.
-* **The responase variable is position.
+Though there are three variables, we will be looking at two of them to make a comparison in relationship to who does more pushups between line and skill players. The two varialbes that we will look at is position and pushups.
 
 # Methods
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
